@@ -21,8 +21,7 @@ public class Model {
     public void tick(){
         for(int i=0;i<handler.getObject().size();i++){
             if(handler.getObject().get(i).getId() == ID.Player){
-                Player pl=(Player)handler.getObject().get(i);
-                camera.tick(pl);
+                camera.tick(handler.getObject().get(i));
             }
         }
 

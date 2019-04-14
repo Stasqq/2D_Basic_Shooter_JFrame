@@ -18,7 +18,6 @@ public class View {
 
     public View(Model model,int width, int height, String title) {
         this.model=model;
-        this.camera=new Camera(0,0);
         frame = new JFrame(title);
         frame.setPreferredSize(new Dimension(width, height));
         frame.setMaximumSize(new Dimension(width, height));
@@ -28,6 +27,7 @@ public class View {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        this.camera=new Camera(0,0);
     }
 
     public void addController(Controller controller) {
@@ -45,10 +45,11 @@ public class View {
 
         /////////////////////////////////////////////////////////////////
 
-        g2D.translate(-camera.getX(),-camera.getY());
 
         g.setColor(Color.red);
         g.fillRect(0,0,1600,900);
+
+        g2D.translate(-camera.getX(),-camera.getY());
 
         model.getHandler().render(g);
 
