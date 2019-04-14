@@ -14,9 +14,11 @@ public class View {
     private JFrame frame;
     private Model model;
     private BufferedImage map=null;
+    private Camera camera;
 
     public View(Model model,int width, int height, String title) {
         this.model=model;
+        this.camera=new Camera(0,0);
         frame = new JFrame(title);
         frame.setPreferredSize(new Dimension(width, height));
         frame.setMaximumSize(new Dimension(width, height));
@@ -39,15 +41,18 @@ public class View {
             return;
         }
         Graphics g=bs.getDrawGraphics();
-
+        Graphics2D g2D = (Graphics2D) g;
 
         /////////////////////////////////////////////////////////////////
 
+        g2D.translate(-camera.getX(),-camera.getY());
+
         g.setColor(Color.red);
-        g.fillRect(0,0,1600,1024);
+        g.fillRect(0,0,1600,900);
 
         model.getHandler().render(g);
 
+        g2D.translate(camera.getX(),camera.getY());
         /////////////////////////////////////////////////////////////////
         g.dispose();
         bs.show();
@@ -81,5 +86,9 @@ public class View {
                 }
             }
         }
+    }
+
+    public Camera getCamera() {
+        return camera;
     }
 }
