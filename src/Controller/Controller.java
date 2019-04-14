@@ -19,6 +19,10 @@ public class Controller extends Canvas implements Runnable {
         model=m;
         view.addController(this);
         start();
+
+        view.loadMap();
+
+        this.addKeyListener(new KeyInput(model.getHandler()));
     }
 
     private void start() {

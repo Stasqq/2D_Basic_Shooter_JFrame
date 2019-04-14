@@ -1,17 +1,19 @@
 package View;
 import Controller.*;
-import Model.Model;
+import Model.*;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
 
 /**
  * Część projektu odpowiedzialna za wyświetlanie i kontakt z użytkownikiem
  */
 public class View {
     private JFrame frame;
-    Model model;
+    private Model model;
+    private BufferedImage map=null;
 
     public View(Model model,int width, int height, String title) {
         this.model=model;
@@ -36,8 +38,9 @@ public class View {
             controller.createBufferStrategy(3);
             return;
         }
-
         Graphics g=bs.getDrawGraphics();
+
+
         /////////////////////////////////////////////////////////////////
 
         g.setColor(Color.red);
@@ -48,5 +51,35 @@ public class View {
         /////////////////////////////////////////////////////////////////
         g.dispose();
         bs.show();
+    }
+
+    public void loadMap(){
+        BufferedImageLoader loader = new BufferedImageLoader();
+        map=loader.loadImage("/game_map.png");
+
+        loadLevel(map);
+    }
+
+    private void loadLevel(BufferedImage image){
+        int width=image.getHeight();
+        int height=image.getHeight();
+
+        for(int xx=0;xx<width;xx++){
+            for(int yy=0;yy<height;yy++){
+                int pixel=image.getRGB(xx,yy);
+                int red=(pixel>>16) & 0xff;
+                int green=(pixel>>8) & 0xff;
+                int blue=(pixel) & 0xff;
+
+                if(red==255){
+                    model.getHandler().addObject(new Block(xx*32,yy*32,ID.Block));
+                }
+
+                if(blue==255){
+                    model.getHandler().addObject(new Player(xx*32,yy*32,ID.Player,model.getHandler()));
+
+                }
+            }
+        }
     }
 }
