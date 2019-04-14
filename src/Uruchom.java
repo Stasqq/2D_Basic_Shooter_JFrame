@@ -16,7 +16,7 @@ public class Uruchom {
      */
     public static void main(String args[]) {
         Model model = new Model();
-        View view = new View();
-        Controller controller = new Controller();
+        View view = new View(model,1600,1024,"Shooter2D");
+        Controller controller = new Controller(view, model);
     }
 }
