@@ -18,10 +18,9 @@ public class Controller extends Canvas implements Runnable {
         view=v;
         model=m;
         view.addController(this);
-        model.setCamera(view.getCamera());
         view.loadMap();
         start();
-
+        this.addMouseListener(new MouseInput(model.getHandler(),model.getCamera()));
         this.addKeyListener(new KeyInput(model.getHandler()));
     }
 

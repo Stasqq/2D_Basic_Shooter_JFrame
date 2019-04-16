@@ -14,7 +14,6 @@ public class View {
     private JFrame frame;
     private Model model;
     private BufferedImage map=null;
-    private Camera camera;
 
     public View(Model model,int width, int height, String title) {
         this.model=model;
@@ -27,7 +26,6 @@ public class View {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        this.camera=new Camera(0,0);
     }
 
     public void addController(Controller controller) {
@@ -49,11 +47,11 @@ public class View {
         g.setColor(Color.red);
         g.fillRect(0,0,1600,900);
 
-        g2D.translate(-camera.getX(),-camera.getY());
+        g2D.translate(-model.getCameraX(),-model.getCameraY());
 
         model.getHandler().render(g);
 
-        g2D.translate(camera.getX(),camera.getY());
+        g2D.translate(model.getCameraX(),model.getCameraY());
         /////////////////////////////////////////////////////////////////
         g.dispose();
         bs.show();
@@ -87,9 +85,5 @@ public class View {
                 }
             }
         }
-    }
-
-    public Camera getCamera() {
-        return camera;
     }
 }

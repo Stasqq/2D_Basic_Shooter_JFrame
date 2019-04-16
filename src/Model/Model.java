@@ -11,6 +11,7 @@ public class Model {
     private Handler handler;
     private Camera camera;
     public Model() {
+        camera=new Camera(0,0);
         handler=new Handler();
     }
 
@@ -28,7 +29,13 @@ public class Model {
        handler.tick();
     }
 
-    public void setCamera(Camera camera) {
-        this.camera = camera;
+    public float getCameraX(){
+        return camera.getX();
     }
+
+    public float getCameraY(){
+        return camera.getY();
+    }
+
+    public Camera getCamera() {return camera;}
 }
