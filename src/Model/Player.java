@@ -1,16 +1,21 @@
 package Model;
 
+import View.SpriteSheet;
+
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Player extends GameObject{
 
     private Handler handler;
     private int ammo;
+    private BufferedImage player_image;
 
-    public Player(int x, int y, ID id, Handler handler) {
-        super(x, y, id);
+    public Player(int x, int y, ID id, Handler handler, SpriteSheet ss) {
+        super(x, y, id,ss);
         this.handler=handler;
         ammo=50;
+        player_image=ss.grabImage(1,1,32,48);
     }
 
     public void tick() {
@@ -66,8 +71,7 @@ public class Player extends GameObject{
     }
 
     public void render(Graphics g) {
-        g.setColor(Color.CYAN);
-        g.fillRect(x,y,32,48);
+        g.drawImage(player_image,x,y,null);
     }
 
     public Rectangle getBounds() {

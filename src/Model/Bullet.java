@@ -1,17 +1,25 @@
 package Model;
 
+import View.SpriteSheet;
+
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Bullet extends GameObject{
 
     private Handler handler;
 
-    public Bullet(int x, int y, ID id, Handler handler, int mx, int my) {
-        super(x, y, id);
+    private BufferedImage bullet_image;
+
+    public Bullet(int x, int y, ID id, Handler handler, int mx, int my, SpriteSheet ss) {
+        super(x, y, id,ss);
         this.handler=handler;
 
         velX = (mx-x)/(float)10;
         velY = (my-y)/(float)10;
+
+        bullet_image=ss.grabImage(4,1,32,32);
+
     }
 
     public void tick() {
@@ -30,11 +38,10 @@ public class Bullet extends GameObject{
     }
 
     public void render(Graphics g) {
-        g.setColor(Color.GREEN);
-        g.fillOval(x,y,8,8);
+        g.drawImage(bullet_image,x,y,null);
     }
 
     public Rectangle getBounds() {
-        return new Rectangle(x,y,8,8);
+        return new Rectangle(x,y,9,9);
     }
 }

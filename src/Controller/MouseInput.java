@@ -2,6 +2,7 @@ package Controller;
 
 import Model.*;
 import View.Camera;
+import View.SpriteSheet;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -10,10 +11,12 @@ public class MouseInput extends MouseAdapter {
 
     private Handler handler;
     private Camera camera;
+    private SpriteSheet ss;
 
-    public MouseInput(Handler handler,Camera camera){
+    public MouseInput(Handler handler,Camera camera,SpriteSheet ss){
         this.handler=handler;
         this.camera=camera;
+        this.ss=ss;
     }
 
     public void mousePressed(MouseEvent e){
@@ -27,7 +30,7 @@ public class MouseInput extends MouseAdapter {
                 Player player = (Player) handler.getObject().get(i);
                 if((int)((mx-tempObject.getX()-16)/(float)10)!=0 && (int)((my-tempObject.getY()-24)/(float)10) !=0 && player.getAmmo() >= 1){
                     player.decAmmo();
-                    handler.addObject(new Bullet(tempObject.getX()+16,tempObject.getY()+24,ID.Bullet,handler,mx,my));
+                    handler.addObject(new Bullet(tempObject.getX()+16,tempObject.getY()+24,ID.Bullet,handler,mx,my,ss));
                 }
             }
         }

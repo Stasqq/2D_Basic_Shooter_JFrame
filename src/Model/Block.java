@@ -5,14 +5,14 @@ import View.SpriteSheet;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-public class Crate extends GameObject{
+public class Block extends GameObject {
 
-    private BufferedImage crateImage;
+    private BufferedImage block_image;
 
-    public Crate(int x, int y, ID id, SpriteSheet ss) {
+    public Block(int x, int y, ID id, SpriteSheet ss) {
         super(x, y, id,ss);
 
-        crateImage=ss.grabImage(3,1,32,32);
+        block_image=ss.grabImage(2,2,32,32);
     }
 
     public void tick() {
@@ -20,7 +20,7 @@ public class Crate extends GameObject{
     }
 
     public void render(Graphics g) {
-        g.drawImage(crateImage,x,y,null);
+        g.drawImage(block_image,x,y,null);
     }
 
     public Rectangle getBounds() {

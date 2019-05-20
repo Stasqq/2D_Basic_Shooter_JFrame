@@ -1,11 +1,14 @@
 package Model;
 
+import View.SpriteSheet;
+
 import java.awt.*;
 
 public abstract class GameObject {
     protected int x,y;
     protected float velX=0,velY=0;
     protected ID id;
+    protected SpriteSheet ss;
 
     public ID getId() {
         return id;
@@ -15,10 +18,11 @@ public abstract class GameObject {
         this.id = id;
     }
 
-    public GameObject(int x, int y, ID id){
+    public GameObject(int x, int y, ID id, SpriteSheet spriteSheet){
         this.x=x;
         this.y=y;
         this.id=id;
+        this.ss=spriteSheet;
     }
 
     public abstract void tick();
