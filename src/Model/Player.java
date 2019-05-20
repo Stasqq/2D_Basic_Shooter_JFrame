@@ -4,11 +4,13 @@ import java.awt.*;
 
 public class Player extends GameObject{
 
-    Handler handler;
+    private Handler handler;
+    private int ammo;
 
     public Player(int x, int y, ID id, Handler handler) {
         super(x, y, id);
         this.handler=handler;
+        ammo=50;
     }
 
     public void tick() {
@@ -32,7 +34,12 @@ public class Player extends GameObject{
 
     private void collision(){
         for(int i=0;i<handler.getObject().size();i++){
-            GameObject tempObject = handler.getObject().get(i);
+            GameObject tempObject;
+            try {
+                tempObject = handler.getObject().get(i);
+            }catch(IndexOutOfBoundsException e) {
+                continue;
+            }
 
             if(tempObject.getId() == ID.Block){
                 if(getBounds().intersects(tempObject.getBounds())){
@@ -40,7 +47,22 @@ public class Player extends GameObject{
                     y += velY *-1;
                 }
             }
+
+            if(tempObject.getId() == ID.Create){
+                if(getBounds().intersects(tempObject.getBounds())){
+                    ammo += 10;
+                    handler.removeObject(tempObject);
+                }
+            }
         }
+    }
+
+    public void decAmmo(){
+        ammo -=1;
+    }
+
+    public int getAmmo(){
+        return ammo;
     }
 
     public void render(Graphics g) {

@@ -2,9 +2,7 @@ package Controller;
 import View.*;
 import Model.*;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferStrategy;
 
 /**
  * Część odpowiedzialna za kontrolę nad grą, kontaktuje się z modelem i widokiem

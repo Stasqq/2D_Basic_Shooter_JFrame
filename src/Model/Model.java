@@ -10,6 +10,7 @@ import java.io.IOException;
 public class Model {
     private Handler handler;
     private Camera camera;
+    private Player player;
     public Model() {
         camera=new Camera(0,0);
         handler=new Handler();
@@ -38,4 +39,6 @@ public class Model {
     }
 
     public Camera getCamera() {return camera;}
+
+    public void setPlayer(Player player){ this.player=player; }
 }

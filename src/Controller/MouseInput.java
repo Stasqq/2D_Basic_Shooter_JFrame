@@ -1,9 +1,6 @@
 package Controller;
 
-import Model.Bullet;
-import Model.GameObject;
-import Model.Handler;
-import Model.ID;
+import Model.*;
 import View.Camera;
 
 import java.awt.event.MouseAdapter;
@@ -27,8 +24,11 @@ public class MouseInput extends MouseAdapter {
             GameObject tempObject= handler.getObject().get(i);
 
             if(tempObject.getId() == ID.Player){
-                if((int)((mx-tempObject.getX()-16)/(float)10)!=0 && (int)((my-tempObject.getY()-24)/(float)10) !=0 )
+                Player player = (Player) handler.getObject().get(i);
+                if((int)((mx-tempObject.getX()-16)/(float)10)!=0 && (int)((my-tempObject.getY()-24)/(float)10) !=0 && player.getAmmo() >= 1){
+                    player.decAmmo();
                     handler.addObject(new Bullet(tempObject.getX()+16,tempObject.getY()+24,ID.Bullet,handler,mx,my));
+                }
             }
         }
     }

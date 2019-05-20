@@ -1,15 +1,13 @@
 package Controller;
 
-import Model.GameObject;
-import Model.Handler;
-import Model.ID;
+import Model.*;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class KeyInput extends KeyAdapter {
 
-    Handler handler;
+    private Handler handler;
 
     public KeyInput(Handler handler){
         this.handler=handler;

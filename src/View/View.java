@@ -79,9 +79,19 @@ public class View {
                     model.getHandler().addObject(new Block(xx*32,yy*32,ID.Block));
                 }
 
-                if(blue==255){
-                    model.getHandler().addObject(new Player(xx*32,yy*32,ID.Player,model.getHandler()));
+                if(blue==255 && green == 0){
+                    Player pl=new Player(xx*32,yy*32,ID.Player,model.getHandler());
+                    model.setPlayer(pl);
+                    model.getHandler().addObject(pl);
 
+                }
+
+                if(green == 255 && blue == 0){
+                    model.getHandler().addObject(new Enemy(xx*32,yy*32,ID.Enemy,model.getHandler()));
+                }
+
+                if(green == 255 && blue == 255){
+                    model.getHandler().addObject(new Crate(xx*32,yy*32,ID.Create));
                 }
             }
         }

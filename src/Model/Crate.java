@@ -1,12 +1,9 @@
-package View;
-
-import Model.*;
+package Model;
 
 import java.awt.*;
 
-public class Block extends GameObject {
-
-    public Block(int x, int y, ID id) {
+public class Crate extends GameObject{
+    public Crate(int x, int y, ID id) {
         super(x, y, id);
     }
 
@@ -15,7 +12,7 @@ public class Block extends GameObject {
     }
 
     public void render(Graphics g) {
-        g.setColor(Color.BLACK);
+        g.setColor(Color.CYAN);
         g.fillRect(x,y,32,32);
     }
 
