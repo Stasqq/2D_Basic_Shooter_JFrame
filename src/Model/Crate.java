@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 
 public class Crate extends GameObject{
 
-    private BufferedImage crateImage;
+    protected BufferedImage crateImage;
 
     public Crate(int x, int y, ID id, SpriteSheet ss) {
         super(x, y, id,ss);

@@ -42,7 +42,8 @@ public class Enemy extends GameObject{
             }
 
             if(tempObject.getId() == ID.Bullet){
-                if(getBounds().intersects(tempObject.getBounds())){
+                Bullet bullet=(Bullet)tempObject;
+                if(getBounds().intersects(tempObject.getBounds()) && bullet.getBt() == BulletType.DmgEnemy){
                     hp -= 50;
                     handler.removeObject(tempObject);
                 }
@@ -51,6 +52,7 @@ public class Enemy extends GameObject{
         }
 
         if(hp <= 0){
+            handler.addObject(new GoldCrate(x,y,ID.GoldCrate,ss,1));
             handler.removeObject(this);
         }
     }

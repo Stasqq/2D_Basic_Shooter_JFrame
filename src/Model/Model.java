@@ -41,4 +41,10 @@ public class Model {
     public Camera getCamera() {return camera;}
 
     public void setPlayer(Player player){ this.player=player; }
+
+    public int getPlayerHp() { return player.getHP(); }
+
+    public int getPlayerAmmo() { return player.getAmmo(); }
+
+    public int getPlayerGold() { return player.getGold(); }
 }

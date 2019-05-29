@@ -10,6 +10,8 @@ public class Player extends GameObject{
     private Handler handler;
     private int ammo;
     private BufferedImage player_image;
+    private int hp=200;
+    private int gold=0;
 
     public Player(int x, int y, ID id, Handler handler, SpriteSheet ss) {
         super(x, y, id,ss);
@@ -35,6 +37,10 @@ public class Player extends GameObject{
 
         if(handler.isLeft()) velX=-5;
         else if(!handler.isRight()) velX=0;
+
+        if(hp <= 0){
+            handler.removeObject(this);
+        }
     }
 
     private void collision(){
@@ -46,6 +52,21 @@ public class Player extends GameObject{
                 continue;
             }
 
+            if(tempObject.getId() == ID.Bullet){
+                Bullet bullet=(Bullet)tempObject;
+                if(getBounds().intersects(tempObject.getBounds()) && bullet.getBt() == BulletType.DmgPlayer){
+                    hp -= 40;
+                    handler.removeObject(tempObject);
+                }
+            }
+
+            if(tempObject.getId() == ID.Enemy){
+                if(getBounds().intersects(tempObject.getBounds())){
+                    hp-=2;
+                }
+            }
+
+
             if(tempObject.getId() == ID.Block){
                 if(getBounds().intersects(tempObject.getBounds())){
                     x += velX *-1;
@@ -56,6 +77,14 @@ public class Player extends GameObject{
             if(tempObject.getId() == ID.Create){
                 if(getBounds().intersects(tempObject.getBounds())){
                     ammo += 10;
+                    handler.removeObject(tempObject);
+                }
+            }
+
+            if(tempObject.getId() == ID.GoldCrate){
+                if(getBounds().intersects(tempObject.getBounds())){
+                    GoldCrate temp = (GoldCrate) tempObject;
+                    gold += temp.getValue();
                     handler.removeObject(tempObject);
                 }
             }
@@ -77,4 +106,8 @@ public class Player extends GameObject{
     public Rectangle getBounds() {
         return new Rectangle(x,y,32,48);
     }
+
+    public int getHP() { return hp; }
+
+    public int getGold() { return gold; }
 }

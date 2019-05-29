@@ -30,7 +30,7 @@ public class MouseInput extends MouseAdapter {
                 Player player = (Player) handler.getObject().get(i);
                 if((int)((mx-tempObject.getX()-16)/(float)10)!=0 && (int)((my-tempObject.getY()-24)/(float)10) !=0 && player.getAmmo() >= 1){
                     player.decAmmo();
-                    handler.addObject(new Bullet(tempObject.getX()+16,tempObject.getY()+24,ID.Bullet,handler,mx,my,ss));
+                    handler.addObject(new Bullet(tempObject.getX()+8,tempObject.getY()+12,ID.Bullet,handler,mx,my,ss,BulletType.DmgEnemy));
                 }
             }
         }
