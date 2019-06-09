@@ -43,6 +43,7 @@ public class AudioFile implements LineListener {
      */
     public AudioFile(String fileName) {
         soundFile = new File(fileName);
+
         try {
             ais = AudioSystem.getAudioInputStream(soundFile);
             format = ais.getFormat();

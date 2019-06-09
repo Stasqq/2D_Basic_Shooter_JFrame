@@ -7,33 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7458de4b-fe84-41f1-8750-2af58197bbf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Shooter2D_jar/Shooter2D.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Shooter2D_jar/Shooter2D.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/2.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Controller/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Controller/KeyInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Controller/KeyInput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Controller/MouseInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Controller/MouseInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Boss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/BulletType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/BulletType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Crate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Crate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Enemy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/GoldCrate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/GoldCrate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/ID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Model/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/Uruchom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/Uruchom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/View/AudioFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/View/AudioFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/View/BufferedImageLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/View/BufferedImageLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/View/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/View/Camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/View/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/View/Music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/View/SpriteSheet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/View/SpriteSheet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Shooter2D/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shooter2D/background_m.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/KeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/KeyInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MouseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MouseInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/BulletType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/BulletType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Crate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Crate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/GoldCrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/GoldCrate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uruchom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uruchom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/BufferedImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/BufferedImageLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/SpriteSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/SpriteSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/AudioFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/AudioFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Music.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="228" />
+          <entry key="java" value="229" />
           <entry key="png" value="15" />
         </counts>
       </usages-collector>
@@ -77,19 +79,19 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="15" />
-          <entry key="JAVA" value="227" />
+          <entry key="JAVA" value="228" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="25603" />
+          <entry key="java" value="25815" />
           <entry key="txt" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25603" />
+          <entry key="JAVA" value="25815" />
           <entry key="PLAIN_TEXT" value="168" />
         </counts>
       </usages-collector>
@@ -100,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2846">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="204">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6952#6953#0" expanded="true" />
@@ -112,14 +114,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/AudioFile.java">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1647#1648#0" expanded="true" />
-                <element signature="e#1672#1673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/AudioFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+                <element signature="e#2065#2066#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="335">
+              <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -160,26 +176,6 @@
               <folding>
                 <element signature="e#570#571#0" expanded="true" />
                 <element signature="e#604#605#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3607#3608#0" expanded="true" />
-                <element signature="e#3632#3633#0" expanded="true" />
-                <element signature="e#3753#3754#0" expanded="true" />
-                <element signature="e#3780#3781#0" expanded="true" />
-                <element signature="e#4309#4310#0" expanded="true" />
-                <element signature="e#4334#4335#0" expanded="true" />
-                <element signature="e#4453#4454#0" expanded="true" />
-                <element signature="e#4480#4481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,7 +205,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -237,6 +233,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Camer</find>
+      <find>ss</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -259,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/View/Block.java" />
         <option value="$PROJECT_DIR$/src/Model/ID.java" />
         <option value="$PROJECT_DIR$/src/Model/Bullet.java" />
-        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/KeyInput.java" />
         <option value="$PROJECT_DIR$/src/Controller/MouseInput.java" />
         <option value="$PROJECT_DIR$/src/Model/Block.java" />
@@ -271,14 +267,15 @@
         <option value="$PROJECT_DIR$/src/Model/GoldCrate.java" />
         <option value="$PROJECT_DIR$/src/Model/Model.java" />
         <option value="$PROJECT_DIR$/src/Model/Player.java" />
-        <option value="$PROJECT_DIR$/src/View/AudioFile.java" />
         <option value="$PROJECT_DIR$/src/View/BufferedImageLoader.java" />
         <option value="$PROJECT_DIR$/src/View/Camera.java" />
-        <option value="$PROJECT_DIR$/src/View/Music.java" />
         <option value="$PROJECT_DIR$/src/View/SpriteSheet.java" />
-        <option value="$PROJECT_DIR$/src/View/View.java" />
         <option value="$PROJECT_DIR$/src/Uruchom.java" />
         <option value="$PROJECT_DIR$/src/Model/Handler.java" />
+        <option value="$PROJECT_DIR$/src/View/View.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/View/Music.java" />
+        <option value="$PROJECT_DIR$/src/View/AudioFile.java" />
       </list>
     </option>
   </component>
@@ -288,7 +285,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -328,12 +325,6 @@
               <item name="Shooter2D" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shooter2D" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shooter2D" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shooter2D" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -346,9 +337,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="shooter2d" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560074635124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560078626286" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -415,7 +410,7 @@
       <workItem from="1559499950247" duration="2257000" />
       <workItem from="1559932501807" duration="597000" />
       <workItem from="1559999976165" duration="7019000" />
-      <workItem from="1560067141210" duration="7275000" />
+      <workItem from="1560067141210" duration="11161000" />
     </task>
     <task id="LOCAL-00001" summary="Added enemies, ammo and ammocrate">
       <created>1558360678939</created>
@@ -442,7 +437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95619000" />
+    <option name="totallyTimeSpent" value="99505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3286334" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946696" weight="0.3286334" />
       <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -475,8 +470,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32968238" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3264642" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32858709" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3275488" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,16 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="843" selection-start-line="843" selection-end-line="843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,18 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/AudioFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/BufferedImageLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -754,46 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/SpriteSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2846">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6952#6953#0" expanded="true" />
-            <element signature="e#6977#6978#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Uruchom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +749,70 @@
             <element signature="e#2299#2300#0" expanded="true" />
             <element signature="e#2451#2452#0" expanded="true" />
             <element signature="e#2492#2493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Uruchom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/SpriteSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
+            <element signature="e#6977#6978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/AudioFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
           </folding>
         </state>
       </provider>

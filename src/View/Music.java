@@ -31,7 +31,7 @@ public class Music implements Runnable {
     public Music(String... files) {
         musicFiles = new ArrayList<AudioFile>();
         for (String file : files)
-            musicFiles.add(new AudioFile("res\\" + file));
+            musicFiles.add(new AudioFile(file));
     }
 
     /**

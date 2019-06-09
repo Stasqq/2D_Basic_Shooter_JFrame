@@ -37,9 +37,9 @@ public class Controller extends Canvas implements Runnable {
 
         executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(2);
 
+        executor.execute(this);
         Music player = new Music("background_w.wav");
         executor.execute(player);
-        executor.execute(this);
 
         //start();
         this.addMouseListener(new MouseInput(model.getHandler(), model.getCamera(), view.getSpriteSheet()));
